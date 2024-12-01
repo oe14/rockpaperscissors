@@ -1,0 +1,39 @@
+*{ 
+    background-color: #8c3f5d;
+}
+
+.game{ 
+    display:flex; 
+    justify-content: space-around;
+
+
+}
+.options{ 
+    display:flex; 
+
+    position: relative;
+
+    gap:0rem;
+}
+.score{ 
+    align-self:center;
+}
+img{ 
+    max-width: 8rem;
+    max-height:8rem;
+    transition: transform 0.2s ease;
+
+}
+img:hover{ 
+    transform: scale(1.15); 
+
+}
+
+
+
+
+.computer{ 
+    color: rgb(235, 235, 51); 
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
